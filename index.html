@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        scroll-padding-top: 100px;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-content">
+        <h1 class="glow-text">Portfolio</h1>
+        <div class="nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#hobbies" class="nav-link">Hobbies</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="container hero-content">
+        <h1 class="hero-title glow-text">Hi, I'm SETHU</h1>
+        <p class="hero-subtitle">Computer Science Student & Web Developer</p>
+        <button class="hover-glow">View My Projects</button>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="container">
+        <h2 class="section-title glow-text">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hello! I'm a passionate Computer Science student with a strong
+              focus on web development and software engineering. Currently
+              pursuing my degree at XYZ University, I specialize in creating
+              modern web applications and user interfaces.
+            </p>
+            <p>
+              With a deep interest in technology and programming, I spend my
+              time learning new technologies and working on exciting projects. I
+              believe in writing clean, efficient code and creating
+              user-friendly applications that make a difference.
+            </p>
+            <!--<p>I'm constantly exploring new technologies and frameworks to stay up-to-date with the latest trends in web development. My goal is to become a full-stack developer and contribute to innovative projects that push the boundaries of what's possible on the web.</p>-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <div class="container">
+        <h2 class="section-title glow-text">Skills & Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-item hover-glow">
+            <h4>HTML5/CSS3</h4>
+            <div class="skill-level" style="--level: 90%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>JavaScript</h4>
+            <div class="skill-level" style="--level: 85%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>React.js</h4>
+            <div class="skill-level" style="--level: 80%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>Python</h4>
+            <div class="skill-level" style="--level: 75%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>Communication</h4>
+            <div class="skill-level" style="--level: 95%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>Team Leadership</h4>
+            <div class="skill-level" style="--level: 85%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>Problem Solving</h4>
+            <div class="skill-level" style="--level: 90%"></div>
+          </div>
+          <div class="skill-item hover-glow">
+            <h4>Project Management</h4>
+            <div class="skill-level" style="--level: 80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="hobbies reveal">
+      <div class="container">
+        <h2 class="section-title glow-text">Hobbies & Interests</h2>
+        <div class="hobbies-grid">
+          <div class="hobby-item hover-glow">
+            <h3>💻 Coding</h3>
+            <p>Building personal projects and learning new technologies</p>
+          </div>
+          <div class="hobby-item hover-glow">
+            <h3>🗣️ Public Speaking</h3>
+            <p>Participating in debates and tech presentations</p>
+          </div>
+          <div class="hobby-item hover-glow">
+            <h3>✍️ Technical Writing</h3>
+            <p>Writing tech blogs and documentation</p>
+          </div>
+          <div class="hobby-item hover-glow">
+            <h3>👥 Community Building</h3>
+            <p>Active participation in tech communities and events</p>
+          </div>
+          <div class="hobby-item hover-glow">
+            <h3>📚 Reading</h3>
+            <p>Technical books and self-improvement</p>
+          </div>
+          <!--<div class="hobby-item hover-glow">
+                    <h3>🎮 Gaming</h3>
+                    <p>Strategy games and team-based competitions</p>
+                </div>
+                <div class="hobby-item hover-glow">
+                    <h3>🗨️ Communication</h3>
+                    <p>Engaging in meaningful conversations and networking</p>
+                </div>-->
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <div class="container">
+        <h2 class="section-title glow-text">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card hover-glow">
+            <h3>Student Management System</h3>
+            <p>
+              A comprehensive system for managing student records, attendance,
+              and grades.
+            </p>
+            <div class="technologies">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="project-card hover-glow">
+            <h3>Weather Dashboard</h3>
+            <p>
+              Real-time weather application with location tracking and forecast
+              visualization.
+            </p>
+            <div class="technologies">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Weather API</span>
+              <span class="tech-tag">Chart.js</span>
+            </div>
+          </div>
+          <div class="project-card hover-glow">
+            <h3>Task Manager</h3>
+            <p>
+              A full-stack task management application with user authentication
+              and real-time updates.
+            </p>
+            <div class="technologies">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">Material-UI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="container">
+        <h2 class="section-title glow-text">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item hover-glow">
+              <h3>📧 Email</h3>
+              <p>sethu21@gmail.com</p>
+            </div>
+            <div class="contact-item hover-glow">
+              <h3>📱 Phone</h3>
+              <p>+91 9876543210</p>
+            </div>
+            <div class="contact-item hover-glow">
+              <h3>📍 Location</h3>
+              <p>HOSUR, TAMILNADU, INDIA</p>
+            </div>
+          </div>
+          <form class="contact-form hover-glow">
+            <input type="text" placeholder="Name" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit" class="hover-glow">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
